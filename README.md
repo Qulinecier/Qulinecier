@@ -20,7 +20,7 @@ Here are my projects!
 
     <font size =3>Main theorems</font>
 
-    Theorem 1. (Formalized) Assumptions (1-4) in Section 3 are assumed. Then there exists an estimator sequence $(\hat{\theta}_n)_{n \geq 0}$ such that for every radius $a \in(0, \infty)$,
+    Theorem 1. (Formalized) Assumptions (1-4) in Section 3 are assumed. Then there exists an estimator sequence $\displaystyle(\hat{\theta}_n)_{n \geq 0}$ such that for every radius $a \in(0, \infty)$,
 
 
     $$P_{\theta_0}(|\hat{\theta}_n-\theta_0|<a \text { and } \ell_n^{\prime}(\hat{\theta}_n)=0) \rightarrow 1 \quad(n \rightarrow \infty)$$
