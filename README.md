@@ -30,22 +30,16 @@ Here are my projects!
 
     Theorem 2. (Planned) Suppose that $X_1, \ldots, X_n$ are iid and satisfy the assumptions of Theorem 2.6, with (c) and (d) replaced by the corresponding assumptions on the third (rather than the second) derivative, that is, by the existence of a third derivative satisfying
 
-    $$
-    |\frac{\partial^3}{\partial \theta^3} \log f(x \mid \theta)| \leq M(x) \qquad \text { for all } x \in A, \quad \theta_0-c<\theta<\theta_0+c
-    $$
+    $$|\frac{\partial^3}{\partial \theta^3} \log f(x \mid \theta)| \leq M(x) \qquad \text { for all } x \in A, \quad \theta_0-c<\theta<\theta_0+c$$
 
     with
 
-    $$
-    E_{\theta_0}[M(\mathbf{X})]<\infty .
-    $$
+    $$E_{\theta_0}[M(\mathbf{X})]<\infty .$$
 
 
     Then, any consistent sequence $\hat{\theta}_n=\hat{\theta}_n\left(X_1, \ldots, X_n\right)$ of roots of the likelihood equation satisfies
 
-    $$
-    \sqrt{n}\left(\hat{\theta}_n-\theta\right) \xrightarrow{\mathcal{L}} N\left(0, \frac{1}{I(\theta)}\right) .
-    $$
+    $$\sqrt{n}\left(\hat{\theta}_n-\theta\right) \xrightarrow{\mathcal{L}} N\left(0, \frac{1}{I(\theta)}\right) .$$
 
     <font size =3>Library dependency</font>
     1. [Mathlib 4](https://github.com/leanprover-community/mathlib4)
@@ -72,9 +66,8 @@ Here are my projects!
 
     Then we have
 
-    $$
-    |\mathcal{T}| \leq \sum_{i=0}^s\binom{n}{i} .
-    $$
+    $$|\mathcal{T}| \leq \sum_{i=0}^s\binom{n}{i}.$$
+    <font></font>
     </details>
 - <font size =3>Formalizing CNF structure of Kochen–Specker SAT in Lean</font>
 
