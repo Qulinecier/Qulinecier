@@ -28,14 +28,7 @@ Here are my projects!
 
     where $\ell_n^{\prime}(\hat{\theta}_n)$ denotes the derivative with respect to $\theta$ of the map $\theta \mapsto \rightarrow \ell_n(\theta ; \omega)$, evaluated at $\theta=\hat{\theta}_n(\omega)$.
 
-    Theorem 2. (Planned) Suppose that $X_1, \ldots, X_n$ are iid and satisfy the assumptions of Theorem 2.6, with (c) and (d) replaced by the corresponding assumptions on the third (rather than the second) derivative, that is, by the existence of a third derivative satisfying
-
-    $$|\frac{\partial^3}{\partial \theta^3} \log f(x \mid \theta)| \leq M(x) \qquad \text { for all } x \in A, \quad \theta_0-c<\theta<\theta_0+c$$
-
-    with
-
-    $$E_{\theta_0}[M(\mathbf{X})]<\infty .$$
-
+    Theorem 2. (Planned) Suppose that $X_1, \ldots, X_n$ are iid and satisfy regularity assumptions.
 
     Then, any consistent sequence $\hat{\theta}_n=\hat{\theta}_n\left(X_1, \ldots, X_n\right)$ of roots of the likelihood equation satisfies
 
